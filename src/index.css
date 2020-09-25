@@ -1,0 +1,23 @@
+
+body.body {
+  font-family: 'Cabin', sans-serif;
+  padding-top: 8rem;
+  margin: auto;
+  background-color: #264653;
+  font-size: 2rem;
+  color: #e9c46a;
+}
+nav.nav {
+  position: absolute;
+  font-family: 'Cabin', sans-serif;
+  top: 0;
+  height: 7rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: #e9c46a;
+  background-color: #2a9d8f;
+  
+}

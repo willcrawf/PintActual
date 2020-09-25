@@ -1,0 +1,108 @@
+* {
+    font-size: 1.4rem;
+}
+::placeholder{color:darkslategrey !important;}
+a.e{text-decoration:underline;color:white;}
+a.e:hover{text-decoration: underline;color:lightblue;}
+button.light{
+    position:absolute;
+    top:95vh;
+    left:0vw;
+    background-color:slategrey !important;
+    color:white !important;
+}
+button.light:hover{
+    background-color:lightgrey !important;
+    color:steelblue !important;
+}
+button.dark{
+    position:absolute;
+    top:95vh;
+    left:0vw;
+    background-color: rgb(60, 60, 60) !important;
+    color:white !important;
+}
+button.dark:hover{
+    background-color:lightgrey !important;
+    color:black !important;
+}
+div.a{padding:2%;margin-top:5vh;}
+div.e{padding:2%;margin-top:5vh;}
+form{
+    position:absolute;
+    width:30vw;
+    top:15vh;
+    height:30vh;
+    left:35vw;
+}
+form.e{
+   width:30vw;
+   height:30vh;
+   position: absolute;
+   top:15vh;
+   left:35vw;
+}
+h3.e{color:white;}
+input[type=text].e{
+    background-color:rgb(218, 218, 218) !important;
+    
+}
+input[type=text].e:hover{
+    background-color:white !important;
+}
+input[type=text].e:focus{
+    background-color: white !important;
+    box-shadow: 0 0 8px whitesmoke !important;
+}
+input[type=file].e{
+    color:white;
+}
+label.e{color:white !important;}
+nav.e {
+    position: absolute;
+    font-family: 'Cabin', sans-serif;
+    top: 0;
+    height: 7rem;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(60,60,60);
+    
+  }
+span.a{
+    position:absolute;
+    z-index:-10;
+    display:none;
+    height:1px;
+    width:1px;
+}
+span.e{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-10;
+    display:block;
+    height:100vh;
+    width:100vw;
+    background-color:black;
+}
+@media only screen and (max-width:680px){
+    form{
+        width:60vw;
+        height:60vh;
+        position: absolute;
+        top:20vh;
+        left:20vw;
+    }
+    form.e{
+        width:60vw;
+        height:60vh;
+        position: absolute;
+        top:20vh;
+        left:20vw;
+    }
+
+}

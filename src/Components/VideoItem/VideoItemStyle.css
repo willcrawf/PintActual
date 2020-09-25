@@ -1,0 +1,14 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 200px;
+    max-height: 250px ;
+}
+
+#vidTit {
+    color: white;
+}
